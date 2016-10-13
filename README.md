@@ -5,7 +5,6 @@ Allows to edit tables in wysiwyg style. Saves the result in json.
 ![screenshot](assets/screen1.jpg)
 
 
-/home/nblum/Auswahl_023.jpg
 ## Installation
 
 ```sh
