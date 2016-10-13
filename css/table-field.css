@@ -1,0 +1,112 @@
+.tablefield-input .table-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 0 50px 30px 0;
+}
+
+.tablefield-input .table-wrapper button,
+.tablefield-input .table-wrapper button:hover {
+    padding: 0;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    text-shadow: none;
+    outline: none;
+}
+
+.tablefield-input .table-wrapper button span {
+    padding: 0;
+}
+
+.tablefield-input .table-wrapper .add-row {
+    position: absolute;
+    bottom: -40px;
+    left: -20px;
+}
+
+.tablefield-input .table-wrapper .add-col {
+    position: absolute;
+    right: -50px;
+    top: -2px;
+}
+
+.tablefield-input table thead td {
+    text-align: center;
+    position: relative;
+    font-size: 1.6rem;
+    height: 20px;
+}
+
+.tablefield-input table thead td button {
+    position: absolute;
+    right: 5px;
+    top: -2px;
+    opacity: .5;
+    font-size: 1rem;
+}
+
+.tablefield-input table thead td button:hover {
+    opacity: 1;
+}
+
+.tablefield-input table tr td {
+    margin: 0;
+    padding: 0;
+}
+
+.tablefield-input table tr td:first-child {
+    width: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.tablefield-input table tr td:first-child button {
+    position: absolute;
+    left: -20px;
+    top: 4px;
+    opacity: .5;
+    font-size: 1rem;
+}
+
+.tablefield-input table tr td:first-child button:hover {
+    opacity: 1;
+}
+
+.tablefield-input table tr td .input-wrapper {
+    border: 1px solid #cfcfcf;
+    overflow: hidden;
+    height: 25px;
+    width: 100px;
+}
+
+.tablefield-input table tr td .input-wrapper:hover {
+    border: 1px solid #858585;
+}
+
+.tablefield-input table tr:hover td .input-wrapper {
+    background: #f2f2f2;
+}
+
+.tablefield-input table tr td textarea {
+    margin: 0;
+    padding: 5px;
+    border: 0;
+    width: 115px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 15px;
+    min-width: unset;
+    border: 0;
+    resize: none;
+    border-radius: 0;
+}
+
+.tablefield-input table tr td textarea:focus {
+    width: 200px;
+    height: 50px;
+    z-index: 1;
+    outline: none;
+    box-shadow: none;
+    position: absolute;
+}
+

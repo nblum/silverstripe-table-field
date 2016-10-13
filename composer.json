@@ -1,0 +1,20 @@
+{
+  "name": "nblum/silverstripe-table-field",
+  "description": "",
+  "type": "silverstripe-module",
+  "homepage": "",
+  "keywords": [
+    "silverstripe",
+    "content"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nico Blum",
+      "email": "mail@blum-nico.de"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "^3.0"
+  }
+}
