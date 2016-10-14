@@ -1,11 +1,19 @@
 <?php
 
+namespace Nblum\TablePage;
+
+use SilverStripe\Forms\TextField;
+use SilverStripe\View\Requirements;
+
 /**
  * Class TableField
  */
 class TableField extends TextField
 {
-    public function __construct($name, $title, $value, $maxLength, $form)
+
+
+
+    public function __construct($name, $title = null, $value = '', $maxLength = null, $form = null)
     {
         parent::__construct($name, $title, $value, $maxLength, $form);
 
