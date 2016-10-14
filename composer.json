@@ -1,13 +1,14 @@
 {
   "name": "nblum/silverstripe-table-field",
-  "description": "",
   "type": "silverstripe-module",
-  "homepage": "",
+  "description": "Allows to edit tables in wysiwyg style",
+  "homepage": "http://www.blum-nico.de",
+  "license": "MIT",
   "keywords": [
     "silverstripe",
-    "content"
+    "content",
+    "table"
   ],
-  "license": "MIT",
   "authors": [
     {
       "name": "Nico Blum",
@@ -16,5 +17,10 @@
   ],
   "require": {
     "silverstripe/framework": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nblum\\TableField\\": "code/"
+    }
   }
 }
