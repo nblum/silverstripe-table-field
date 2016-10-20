@@ -5,7 +5,15 @@
  */
 class TableField extends TextField
 {
-    public function __construct($name, $title, $value, $maxLength, $form)
+    /**
+     * TableField constructor.
+     * @param string $name
+     * @param null $title
+     * @param string $value
+     * @param null $maxLength
+     * @param null $form
+     */
+    public function __construct($name, $title = null, $value = '', $maxLength = null, $form = null)
     {
         parent::__construct($name, $title, $value, $maxLength, $form);
 
@@ -16,7 +24,10 @@ class TableField extends TextField
         $this->setAttribute('type', 'hidden');
     }
 
-
+    /**
+     * @param array $properties
+     * @return string
+     */
     public function Field($properties = array())
     {
         Requirements::css(TABLE_FIELD_PLUGIN_PATH . '/css/table-field.css');
