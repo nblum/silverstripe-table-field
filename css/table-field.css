@@ -106,7 +106,7 @@
     height: 50px;
     z-index: 1;
     outline: none;
-    box-shadow: none;
     position: absolute;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .6);
 }
 

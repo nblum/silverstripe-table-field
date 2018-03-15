@@ -1,8 +1,8 @@
 {
   "name": "nblum/silverstripe-table-field",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "description": "Allows to edit tables in wysiwyg style",
-  "homepage": "http://www.blum-nico.de",
+  "homepage": "https://github.com/nblum/",
   "license": "MIT",
   "keywords": [
     "silverstripe",
@@ -12,15 +12,23 @@
   "authors": [
     {
       "name": "Nico Blum",
-      "email": "mail@blum-nico.de"
+      "email": "github@blum-nico.de"
     }
   ],
   "require": {
-    "silverstripe/framework": "^3.0"
+    "silverstripe/framework": "^4.0"
+  },
+  "extra": {
+    "expose": [
+      "css",
+      "javascript"
+    ]
   },
   "autoload": {
     "psr-4": {
-      "Nblum\\TableField\\": "code/"
+      "Nblum\\TableField\\": "src/"
     }
-  }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
 }

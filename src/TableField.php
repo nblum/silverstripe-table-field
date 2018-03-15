@@ -1,5 +1,10 @@
 <?php
 
+namespace Nblum\TableField;
+
+use SilverStripe\Forms\TextField;
+use SilverStripe\View\Requirements;
+
 /**
  * Class TableField
  */
@@ -30,8 +35,8 @@ class TableField extends TextField
      */
     public function Field($properties = array())
     {
-        Requirements::css(TABLE_FIELD_PLUGIN_PATH . '/css/table-field.css');
-        Requirements::javascript(TABLE_FIELD_PLUGIN_PATH . '/js/table-field.js');
+        Requirements::css('nblum/silverstripe-tablefield:css/table-field.css');
+        Requirements::javascript('nblum/silverstripe-tablefield:javascript/table-field.js');
         return parent::Field($properties);
     }
 }
