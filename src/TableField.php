@@ -22,7 +22,7 @@ class TableField extends TextField
     {
         parent::__construct($name, $title, $value, $maxLength, $form);
 
-        $this->setTemplate('TableField');
+        $this->setTemplate('Nblum/TableField/TableField');
 
         $this->setAttribute('class', 'text');
         $this->setAttribute('data-value', 'true');
