@@ -36,7 +36,7 @@ class TableField extends TextField
     public function Field($properties = array())
     {
         Requirements::css('nblum/silverstripe-table-field:css/table-field.css');
-        Requirements::javascript('nblum/silverstripe-table-field:javascript/table-field.js');
+        Requirements::javascript('nblum/silverstripe-table-field:js/table-field.js');
         return parent::Field($properties);
     }
 }
