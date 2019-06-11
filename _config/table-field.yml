@@ -1,0 +1,6 @@
+---
+name: table-field
+---
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - 'nblum/silverstripe-table-field:css/table-field.css'
