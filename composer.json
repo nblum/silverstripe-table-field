@@ -19,10 +19,9 @@
     "silverstripe/framework": "^4.0"
   },
   "extra": {
-    "installer-name": "table-field",
     "expose": [
       "css",
-      "javascript"
+      "js"
     ]
   },
   "autoload": {
