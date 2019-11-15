@@ -6,6 +6,7 @@
             $('.tablefield-input').entwine({
                 onmatch: function () {
                     me.loadValues();
+                    me.updateValue();
                 }
             });
 
